@@ -8,8 +8,8 @@ function Prompt{
     $user = $env:USERNAME
     $hostname = $env:COMPUTERNAME.ToLower()
     $directory = Get-Location
-    Write-Host("$user@$hostname ") -NoNewline -ForegroundColor "Yellow" 
-    Write-Host("$directory") -ForegroundColor "Gray" 
+    Write-Host("$user@$hostname ") -NoNewline -ForegroundColor "Green" 
+    Write-Host("$directory") -ForegroundColor "Blue" 
     ">: "
 }
 
